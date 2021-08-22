@@ -3,22 +3,21 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "assets/css"
+            "savePath": "/css"
         },
         {
-            "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "assets/css"
+            "format": "compressed",
+            "savePath": "/css"
         }
     ],
-    "liveSassCompile.settings.autoprefix": [
-        "> 1%",
-        "last 10 versions"
-    ],
-    "liveSassCompile.settings.generateMap": false,
-    "liveServer.settings.port": 1235,
     "liveSassCompile.settings.excludeList": [
         "**/node_modules/**",
         ".vscode/**"
     ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
 }
